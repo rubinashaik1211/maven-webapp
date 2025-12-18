@@ -1,4 +1,5 @@
 # maven-webapp
-maven-webapp
+myapp/
 ├── pom.xml
-└── src/
+├── src/main/webapp
+│   └── index.jsp
