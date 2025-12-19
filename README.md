@@ -1,4 +1,24 @@
-# maven-webapp
-maven-webapp
-├── pom.xml
-└── src/
+
+webapp
+ ├── pom.xml
+ └── src
+     └── main
+         └── webapp
+             └── index.jsp
+             <project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.example</groupId>
+  <artifactId>webapp</artifactId>
+  <version>1.0</version>
+  <packaging>war</packaging>
+
+  <dependencies>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>4.0.1</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</project>
